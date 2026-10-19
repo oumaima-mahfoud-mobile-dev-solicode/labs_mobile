@@ -3,6 +3,7 @@ marp: true
 theme: default
 paginate: true
 
+
 ---
 
 # Git & GitHub
@@ -29,19 +30,13 @@ SOLICODE
 5. **Travaux pratiques (Labs)**
 
 6. **Les commits Git**
-
-7. **Bonnes pratiques et évaluation**
-
-8. **Conclusion et ressources utiles**
+7. **Conclusion et ressources utiles**
 ----
 
 # 1. Introduction
 
 Imaginez que vous travaillez sur un projet et qu’après plusieurs modifications, votre code ne fonctionne plus. Vous voulez revenir à une ancienne version, mais vous ne savez pas comment faire.
 
-C’est un problème que beaucoup de développeurs rencontrent.
-
-Aujourd’hui, nous allons découvrir **Git et GitHub**, deux outils essentiels pour gérer nos projets, suivre les modifications et travailler plus efficacement.
 
 ---
 
@@ -178,28 +173,6 @@ Une Pull Request permet de proposer des modifications avant de les intégrer dan
 
 ---
 
-# 12. Bonnes pratiques
-
-- Utiliser Git dès le début du projet.
-- Faire des commits réguliers et cohérents.
-- Écrire des messages de commit explicites.
-- Créer une branche par fonctionnalité.
-- Ne jamais publier de secrets ou de clés API.
-- Vérifier les changements avant de les enregistrer.
-
----
-
-# 13. Travaux pratiques
-
-**Lab 1 :** créer un dépôt local.
-
-**Lab 2 :** publier le projet sur GitHub.
-
-**Lab 3 :** créer une branche et ouvrir une Pull Request.
-
-**Objectif :** comprendre le workflow Git et GitHub en pratiquant.
-
----
 
 # Conclusion
 
