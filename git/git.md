@@ -42,7 +42,7 @@ Imaginez que vous travaillez sur un projet et qu’après plusieurs modification
 
 # 2. Qu'est-ce que Git ?
 
-Git est un système de contrôle de versions distribué.
+Git est un système de contrôle de versions .
 
 Il permet de :
 
@@ -156,20 +156,6 @@ git switch main
 git merge feature/navbar
 ```
 
----
-
-# 11. La Pull Request
-
-Une Pull Request permet de proposer des modifications avant de les intégrer dans une autre branche.
-
-Étapes :
-
-1. Créer une branche.
-2. Développer une fonctionnalité.
-3. Créer un commit.
-4. Envoyer la branche sur GitHub.
-5. Ouvrir une Pull Request.
-6. Examiner puis fusionner les changements.
 
 ---
 
