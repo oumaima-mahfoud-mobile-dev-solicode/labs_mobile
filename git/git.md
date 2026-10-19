@@ -27,10 +27,8 @@ SOLICODE
 4. **GitHub et le travail collaboratif**
 
 
-5. **Travaux pratiques (Labs)**
-
-6. **Les commits Git**
-7. **Conclusion et ressources utiles**
+5. **Les commits Git**
+6. **Conclusion et ressources utiles**
 ----
 
 # 1. Introduction
