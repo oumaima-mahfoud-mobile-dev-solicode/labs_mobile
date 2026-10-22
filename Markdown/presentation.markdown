@@ -108,9 +108,7 @@ console.log("Hello World!");
 ## Task Lists
 
 ```markdown
-- [x] HTML
-- [x] CSS
-- [ ] JavaScript
+-- hello
 ```
 
 ---
