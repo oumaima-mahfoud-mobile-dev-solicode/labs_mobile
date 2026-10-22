@@ -1,19 +1,17 @@
 ---
 marp: true
+paginate: true
 ---
 
 # Lab : Erreurs JavaScript
 ## Lire, Comprendre et Déboguer les Erreurs JS
 
+
+oumaima mahfoud
+
 ---
 
 ## 1. Planification
-- **Objectifs** :
-  - Distinguer les 3 erreurs majeures : `SyntaxError`, `ReferenceError`, `TypeError`.
-  - Décoder une stack trace pour localiser la ligne fautive.
-  - Appliquer le bon correctif de manière ciblée.
-- **Prérequis** : Notions de syntaxe JavaScript et accès à un terminal.
-- **Étapes** :
   1. Identifier le type et le message de l'erreur.
   2. Remonter la pile d'appels (stack trace).
   3. Reproduire et corriger le bug.
@@ -74,4 +72,4 @@ console.log(utilisateur?.nom ?? "Invité"); // Affiche : "Invité"
 
 ## 6. Conclusion
 - **Compétence acquise** : Lecture autonome des messages d'erreur et localisation instantanée de la source du dysfonctionnement.
-- **Livrable attendu** : Fichier unique `presentation.md` servant de référence pour les sessions de débogage.
+.
