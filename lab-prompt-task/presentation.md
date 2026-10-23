@@ -15,8 +15,8 @@ size: 16:9
 ## Lab Plan
 
 1. Introduction
-2. Problems Encountered
-3. Solutions Implemented
+2. Problèmes 
+3. Solutions 
 
 ---
 
