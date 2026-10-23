@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     $data["description"]
 
    );
-   echo json_encode($categories);
+   echo json_decode($categories);
 
 
 }
