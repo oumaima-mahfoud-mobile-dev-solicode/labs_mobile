@@ -151,7 +151,7 @@ Explique les modifications effectuées.
 
 ---
 
-<!-- _class: light -->
+
 
 ## 8. Comparaison des résultats
 
