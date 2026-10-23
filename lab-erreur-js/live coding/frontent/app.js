@@ -1,6 +1,6 @@
 const btnAjouter = document.getElementById("btn-ajouter")
 const divform = document.getElementById("div_form")
-const formcat = document.getElementById("form-categorie")
+const formcat = getElementById("form-categorie")
 const nom = document.getElementById("nom")
 const description = document.getElementById("description")
 const tbody = document.getElementById("tbody")
