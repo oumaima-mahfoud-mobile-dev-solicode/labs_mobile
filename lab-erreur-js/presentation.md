@@ -7,8 +7,6 @@ paginate: true
 ## Lire, Comprendre et Déboguer les Erreurs JS
 
 
-oumaima mahfoud
-
 ---
 
 ## 1. Planification
