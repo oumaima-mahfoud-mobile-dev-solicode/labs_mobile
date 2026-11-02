@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: "Blog Produits — Présentation & Marp"
-footer: "OFPPT | SoliCode — Français A1"
+footer: "OFPPT | SoliCode"
 ---
 
 <style>
