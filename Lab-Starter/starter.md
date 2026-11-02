@@ -4,7 +4,7 @@ theme: default
 paginate: true
 ---
 
-# Lab-Starter 2
+# Lab-Starter 
 ## Préparer l’environnement de développement
 
 **Objectif :** Installer, configurer et vérifier l’environnement de développement Web sous Windows.
