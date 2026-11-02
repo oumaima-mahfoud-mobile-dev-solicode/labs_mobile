@@ -21,8 +21,8 @@ footer: "OFPPT | SoliCode — Français A1"
 # Blog de Gestion des Produits
 ## Présentation & Méthode Marp
 
-- **Présenté par** : Oumaima Mahfoud
 - **Encadré par** : ES-SARRAJ FOUAD
+- **Présenté par** : Oumaima Mahfoud
 - **Centre** : SoliCode Tanger (OFPPT)
 
 <!-- Note: Présentation du projet Blog Produits avec support Marp. -->
