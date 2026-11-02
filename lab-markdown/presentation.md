@@ -2,7 +2,7 @@
 ## Présentation du projet : Blog de gestion des produits
 
 ![Présentation du Blog de Gestion des Produits](images/blog-produits.jpg)
-
+ 
 ## 1. Plan
 
 - **Présentation du projet** : Sujet et objectif du blog de gestion des produits.
