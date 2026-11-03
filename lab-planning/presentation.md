@@ -3,160 +3,162 @@ marp: true
 theme: default
 size: 16:9
 paginate: true
-style: |
-  section {
-    box-sizing: border-box;
-    padding: 5%;
-    font-size: clamp(20px, 2.2vw, 28px);
-    overflow-wrap: anywhere;
-  }
-  h1 { font-size: clamp(36px, 4.5vw, 56px); }
-  h2 { font-size: clamp(28px, 3.2vw, 40px); }
-  pre { font-size: clamp(13px, 1.45vw, 18px); }
-  table { font-size: clamp(15px, 1.7vw, 22px); }
-  section:not(.light) { background: #101827; color: #eaf0ff; }
-  section.light { background: #f5f7fb; color: #172033; }
-  @media screen and (max-width: 700px) {
-    section { padding: 4%; }
-    pre { white-space: pre-wrap; }
-    table { font-size: 14px; }
-  }
+header: "Lab Planing — Plan Générique des Labs"
+footer: "OFPPT | SoliCode — Français A1"
 ---
 
-#  Planification d'un Lab
+<style>
+section {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 24px;
+  padding: 35px 50px;
+}
+.logo-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e2e8f0;
+}
+table {
+  font-size: 17px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th {
+  background-color: #2563eb;
+  color: white;
+  padding: 7px 10px;
+}
+td {
+  padding: 7px 10px;
+}
+ul {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+li {
+  margin-bottom: 6px;
+}
+code {
+  background-color: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+</style>
 
----
+<!-- _header: "" -->
+<!-- _footer: "" -->
 
-<!-- _class: light -->
-## Lab Plan
-1. Introduction
-2. Problems Encountered
-3. Solutions Implemented
+<div class="logo-bar">
+  <img src="images/logo-ofppt.png" height="95" alt="Logo OFPPT">
+  <img src="images/logo-solicode.png" height="75" alt="Logo SoliCode">
+</div>
 
----
+# Lab Planing : Plan Générique des Labs
+## Méthode de Structuration & Application au Lab Markdown
 
-## Introduction
+- **Présenté par** : Oumaima Mahfoud
+- **Encadré par** : ES-SARRAJ FOUAD
+- **Centre** : SoliCode Tanger (OFPPT)
+- **Cas pratique** : Lab Markdown — Syntaxe et documentation
 
-- Concevoir un lab autonome à partir d’un besoin réel ou d’un objectif d’apprentissage.
-- Utiliser le blog comme contexte : chaque lab explore une partie ciblée de sa stack, une technique ou une bibliothèque.
-- Relier le problème, le travail à effectuer et une validation concrète.
-
----
-
-<!-- _class: light -->
-## Problems Encountered
-
-Exemples génériques de difficultés de planification :
-
-- La documentation est dense et ne donne pas toujours un parcours pratique.
-- Les étapes intermédiaires ne permettent pas de vérifier les acquis.
-- Un lab trop large mélange plusieurs technologies et manque d’un objectif clair.
-
----
-
-## Solutions Implemented
-
-Organiser le lab en quatre temps :
-
-1. **Définition** — préciser le besoin et le résultat attendu.
-2. **Outils** — choisir une technologie et préparer l’environnement.
-3. **Hello** — réaliser une première pratique courte et vérifiable.
-4. **Quick Start** — appliquer les acquis à un petit cas complet.
-
----
-
-<!-- _class: light -->
-## Concepts et outils
-
-- **Ordre de conception :** Définition → Outils → Hello → Quick Start.
-- **Règle de portée :** un lab, une cible technique principale.
-- **Outils possibles :** éditeur Markdown et extension Marp dans VS Code pour rédiger et prévisualiser les supports.
-
-| Objectif d’apprentissage | Cible possible |
-|:---|:---|
-| Persister des articles | MySQL |
-| Construire une page serveur | PHP natif ou Laravel |
-| Ajouter une interaction | Alpine.js |
-| Styliser une interface | Tailwind CSS ou Preline UI |
-| Explorer le mobile | Kotlin |
+<!-- Note: Bonjour, je vous présente aujourd'hui le Lab Planing pour structurer tous nos Labs techniques avec un modèle unique. -->
 
 ---
 
-## Architecture pédagogique proposée
+## Plan de la présentation
 
-Exemple d’organisation pour un **lab complet** ; cette présentation reste le livrable Marp unique de cet exercice.
+- **1. Stack technique** : Outils pour concevoir et documenter un Lab
+- **2. Définitions** : Notions clés du modèle générique
+- **3. Problème et besoin** : Pourquoi standardiser la structure des Labs
+- **4. Solution et pratique** : Préparation et méthode en 7 parties (Cas Markdown)
+- **5. Résultats et conclusion** : Plan générique final et compétences acquises
 
-```text
-labs/lab-sujet-nom/
-├── README.md              # Index et objectif
-├── 1-introduction.md      # Contexte et prérequis
-├── 2-definition.md        # Problème et solution attendue
-├── 3-practical.md         # Exercices guidés
-├── 4-presentation.md     # Slides du lab
-└── PROMPT-CONTENU.md      # Consignes de production
-```
-
-Nommer le dossier en minuscules avec des tirets, puis l’ajouter à l’index des labs si le projet en possède un.
+<!-- Note: Notre plan comporte cinq parties pour découvrir la méthode et son application concrète au Lab Markdown. -->
 
 ---
 
-<!-- _class: light -->
-## Première pratique — cadrage express
+## 1. Stack technique
 
-**Besoin de blog :** un auteur veut enregistrer et retrouver ses articles.
+| Outil / Technologie | Catégorie | Rôle pour la création d'un Lab | Application au Lab Markdown |
+| :--- | :--- | :--- | :--- |
+| **Marp (Markdown)** | Présentation | Génère des slides professionnelles en 16:9 | Produit le support de cours `presentation.md` |
+| **VS Code** | Éditeur de code | Offre l'environnement d'écriture et d'aperçu | Rédige le contenu et teste le rendu Markdown |
+| **Markdownlint** | Validateur | Contrôle la syntaxe et la qualité du code | Vérifie les niveaux de titres et les listes |
+| **Git & GitHub** | Versioning | Archive et partage les versions de chaque Lab | Sauvegarde les exercices et la documentation |
 
-Compléter le cadrage avant d’écrire le lab :
-
-| Question | Exemple de cadrage |
-|:---|:---|
-| Problème | Les articles doivent être conservés entre deux visites. |
-| Solution / travail | Créer une table, enregistrer un article, relire les articles. |
-| Technologie ciblée | MySQL, sans ajouter le framework dans cet exercice. |
-| Validation | Une requête retrouve le titre enregistré. |
+<!-- Note: Nous utilisons Marp et VS Code pour rédiger, formater et tester facilement toutes nos présentations de Labs. -->
 
 ---
 
-## Quick Start — planifier le lab
+## 2. Définitions
 
-**Titre :** Enregistrer un article de blog avec MySQL
+- **Lab Technique** : Atelier pratique ciblé pour apprendre une compétence ou un outil précis.
+  - *Exemple Markdown* : Atelier pour maîtriser le formatage de texte structuré.
+- **Plan Générique** : Trame standard en 7 parties réutilisable pour tous les Labs.
+  - *Exemple Markdown* : Même squelette appliqué de la page de garde à la conclusion.
+- **Fil Rouge Métier** : Projet support commun (Blog Produits : `customers`, `products`, `collections`).
+  - *Exemple Markdown* : Création d'une fiche produit Markdown issue de la table `products`.
+- **Livrable Unique** : Fichier standard obligatoire `presentation.md` placé à la racine du Lab.
+  - *Exemple Markdown* : Document Marp autonome prêt pour l'évaluation.
 
-1. **Définition :** un article possède un titre et un contenu.
-2. **Outils :** MySQL et un client SQL disponibles dans l’environnement d’apprentissage.
-3. **Hello :** créer la table `articles` et insérer un article.
-4. **Quick Start :** lire l’article et vérifier son titre.
-
-**Hors périmètre :** authentification, interface web et intégration Laravel.
-
----
-
-<!-- _class: light -->
-## Quick Start — première validation MySQL
-
-À exécuter dans une base MySQL de test. Ce script crée une table dédiée puis vérifie l’article inséré.
-
-```sql
-CREATE TABLE articles_lab (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(150) NOT NULL,
-    content TEXT NOT NULL
-);
-
-INSERT INTO articles_lab (title, content)
-VALUES ('Premier article', 'Contenu de démonstration');
-
-SELECT title
-FROM articles_lab
-WHERE title = 'Premier article';
-```
-
-Résultat attendu : une ligne avec le titre `Premier article`. Le script est proposé comme exercice ; il n’a pas été exécuté ici.
+<!-- Note: Un Lab est un atelier pratique guidé par un plan standard pour apprendre pas à pas avec du code réel. -->
 
 ---
 
-## Vérifier que le lab est prêt
+## 3. Problème et besoin
 
-- Le problème et le résultat attendu sont compréhensibles sans deviner.
-- Les étapes indiquent quoi faire et comment valider chaque étape.
-- La technologie est choisie selon l’objectif ; le hors-périmètre évite d’élargir le lab.
+| Aspect | Problème constaté sans plan | Besoin & Solution du plan générique |
+| :--- | :--- | :--- |
+| **Structure** | Présentations hétérogènes et ordre désordonné | Cadre unique en 7 slides claires et prévisibles |
+| **Pédagogie** | Risque d'oublier les prérequis ou la pratique | Présence garantie du problème, du code et du TP |
+| **Productivité** | Perte de temps à réinventer le plan à chaque Lab | Démarrage immédiat avec un modèle prêt à l'emploi |
+| **Évaluation** | Critères flous et validation difficile | Grille de notation standardisée sur 20 points |
 
-**Règle d’or :** un parcours guidé relie définition, outils, première pratique et Quick Start.
+- **Cas concret (Lab Markdown)** :
+  - *Avant* : Syntaxe isolée sans contexte métier ni exercice guidé.
+  - *Avec le plan* : Problème concret posé, tableau de données `products` et exercice pas-à-pas.
+
+<!-- Note: Ce plan générique élimine les oublis et donne une structure claire pour créer chaque Lab rapidement. -->
+
+---
+
+## 4. Solution et pratique
+
+### Les 5 étapes de préparation d'un Lab
+1. **Cadrer** le sujet métier · 2. **Définir** les notions · 3. **Poser** le problème · 4. **Démontrer** par le code · 5. **Évaluer** par le TP
+
+### Application des 7 parties au Lab Markdown
+| Partie | Objectif de la slide | Exemple concret : Lab Markdown |
+| :---: | :--- | :--- |
+| **1** | **Garde** : Logos, titre, intervenants | *Lab Markdown — Syntaxe et documentation* |
+| **2** | **Plan** : 5 parties maximum | *1. Outils · 2. Définitions · 3. Contexte · 4. Syntaxe · 5. TP* |
+| **3** | **Stack** : Environnement de travail | *VS Code + Extension Marp + Markdownlint* |
+| **4** | **Définitions** : Vocabulaire clé | *Balises, titres `#`, liens `[]()`, blocs de code* |
+| **5** | **Problème** : Utilité du Markdown | *Comment documenter le catalogue `products` sans HTML lourd* |
+| **6** | **Pratique** : Code et syntaxe | *Fiche produit Markdown avec tableau des prix et tags* |
+| **7** | **Résultats** : TP et conclusion | *Fichier `fiche-produit.md` validé + TP noté sur 20* |
+
+<!-- Note: Voici les cinq étapes de préparation et l'application directe des sept parties au cas du Lab Markdown. -->
+
+---
+
+## 5. Résultats et conclusion
+
+### Plan générique validé
+- **Modèle universel** : Applicable immédiatement aux 30 Labs du projet technique.
+- **Gain de temps** : Structure prête en 16:9, zéro mise en page superflue.
+- **Rigueur pédagogique** : Équilibre parfait entre théorie, code pratique et évaluation.
+
+### Compétences acquises
+| Domaine | Compétence opérationnelle |
+| :--- | :--- |
+| **Méthodologie** | Structurer une présentation technique en 7 parties logiques |
+| **Outils** | Maîtriser Marp, la syntaxe Markdown et les normes 16:9 |
+| **Transmission** | Expliquer clairement un concept technique avec le niveau Français A1 |
+
+<!-- Note: En conclusion, ce plan générique garantit des présentations homogènes, professionnelles et faciles à comprendre. -->
+
