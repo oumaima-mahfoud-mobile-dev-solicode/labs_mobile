@@ -65,6 +65,7 @@ li {
 
 ## 1. Projet Technique : Blog Produits
 
+
 - Application web pour gérer et afficher un catalogue de produits.
 -  Gérer les comptes clients, classer les articles et enregistrer les commandes.
 - **Organisation des données (3 tables)** :
