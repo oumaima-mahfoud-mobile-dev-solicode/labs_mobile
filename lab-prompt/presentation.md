@@ -77,8 +77,8 @@ blockquote {
 # Lab : Les bases du Prompt Engineering
 ## Formation : Apprendre à écrire de bons prompts
 
-- **Présenté par** : Oumaima Mahfoud
 - **Encadré par** : ES-SARRAJ FOUAD
+- **Présenté par** : Oumaima Mahfoud
 - **Centre** : SoliCode Tanger (OFPPT)
 - **Domaine** : Intelligence Artificielle & Développement Web
 
@@ -275,33 +275,7 @@ avec la même organisation et le même style. »
 
 ---
 
-## Travail Pratique : Rédiger 3 prompts Laravel
 
-- **Objectif** : Écrire et tester 3 prompts professionnels avec du code réel.
-- **Étapes à réaliser** :
-  1. **Prompt 1 (RTF)** : Demander l'explication du routage web Laravel (`routes/web.php`).
-  2. **Prompt 2 (IPO)** : Fournir une table SQL `products` et demander la migration correspondante.
-  3. **Prompt 3 (Few-Shot)** : Donner un exemple de contrôleur et demander le contrôleur suivant.
-  4. **Validation** : Tester les 3 prompts dans ChatGPT ou Copilot et vérifier le code.
-
-<!-- Note: Ce travail pratique vous entraîne à écrire, tester et valider trois prompts techniques réels. -->
-
----
-
-## Critères d'évaluation
-
-| Critère | Description | Barème |
-| :--- | :--- | :--- |
-| **Structure & Méthodes** | Respect des méthodes RTF, IPO et Few-Shot | 5 points |
-| **Précision technique** | Pertinence du vocabulaire Laravel et des consignes | 5 points |
-| **Vérification du code** | Test effectif et détection des erreurs du modèle | 5 points |
-| **Qualité & Clarté A1** | Phrases courtes, clarté des questions, zéro ambiguïté | 5 points |
-
-- **Total** : 20 points
-
-<!-- Note: L'évaluation porte sur la structure des prompts, la rigueur technique, les tests et la clarté du français. -->
-
----
 
 ## Conclusion
 
