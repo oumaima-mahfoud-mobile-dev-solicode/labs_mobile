@@ -98,12 +98,8 @@ code {
 
 - **Lab Technique** : Atelier pratique ciblé pour apprendre une compétence ou un outil précis.
   - *Exemple Markdown* : Atelier pour maîtriser le formatage de texte structuré.
-- **Plan Générique** : Trame standard en 7 parties réutilisable pour tous les Labs.
-  - *Exemple Markdown* : Même squelette appliqué de la page de garde à la conclusion.
-- **Fil Rouge Métier** : Projet support commun (Blog Produits : `customers`, `products`, `collections`).
-  - *Exemple Markdown* : Création d'une fiche produit Markdown issue de la table `products`.
-- **Livrable Unique** : Fichier standard obligatoire `presentation.md` placé à la racine du Lab.
-  - *Exemple Markdown* : Document Marp autonome prêt pour l'évaluation.
+  
+
 
 <!-- Note: Un Lab est un atelier pratique guidé par un plan standard pour apprendre pas à pas avec du code réel. -->
 
@@ -118,9 +114,7 @@ code {
 | **Productivité** | Perte de temps à réinventer le plan à chaque Lab | Démarrage immédiat avec un modèle prêt à l'emploi |
 | **Évaluation** | Critères flous et validation difficile | Grille de notation standardisée sur 20 points |
 
-- **Cas concret (Lab Markdown)** :
-  - *Avant* : Syntaxe isolée sans contexte métier ni exercice guidé.
-  - *Avec le plan* : Problème concret posé, tableau de données `products` et exercice pas-à-pas.
+
 
 <!-- Note: Ce plan générique élimine les oublis et donne une structure claire pour créer chaque Lab rapidement. -->
 
@@ -148,12 +142,6 @@ code {
 
 ## 5. Résultats et conclusion
 
-### Plan générique validé
-- **Modèle universel** : Applicable immédiatement aux 30 Labs du projet technique.
-- **Gain de temps** : Structure prête en 16:9, zéro mise en page superflue.
-- **Rigueur pédagogique** : Équilibre parfait entre théorie, code pratique et évaluation.
-
-### Compétences acquises
 | Domaine | Compétence opérationnelle |
 | :--- | :--- |
 | **Méthodologie** | Structurer une présentation technique en 7 parties logiques |
