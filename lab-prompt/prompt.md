@@ -1,4 +1,4 @@
-# Mission : Créer le Lab « Les bases du Prompt Engineering »
+# Mission : Créer le Lab « lab-prompt »
 
 ## Objectif
 Créer une présentation Marp qui explique les bases du Prompt Engineering aux débutants, avec des exemples simples liés au développement web et à Laravel.
