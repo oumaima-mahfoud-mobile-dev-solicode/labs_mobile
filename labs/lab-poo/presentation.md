@@ -69,25 +69,21 @@ class Produit {
 
 ## 3. Problème
 
-- Le code devient long.
-- Les fonctions se répètent.
-- La maintenance est difficile.
-- Le projet grandit vite.
+- À compléter à partir de la réponse de l'étudiant : quel problème concret motive ce lab ?
+- Préciser le contexte et les conséquences constatées.
+- Ne pas présenter d'exemple comme un problème vécu sans confirmation.
 
 
-
-<!-- Note: Le code PHP sans structure pose des difficultés de lecture et de maintenance. -->
+<!-- Note: Je précise le contexte et les conséquences du problème avant d'appliquer la solution. -->
 
 ---
 
 ## 4. Solution
 
-- Créer des classes pour les données.
-- Séparer les responsabilités.
-- Réutiliser le code par héritage.
-- Tester chaque classe en petit bloc.
-
-**Solution proposée :** utiliser la POO pour organiser les objets et les règles de gestion des articles.
+- Présenter la démarche proposée par l'étudiant, après l'avoir recueillie.
+- Prévoir un Quick Start et un premier exemple PHP exécutable.
+- Montrer un exercice sur les erreurs et exceptions, un sur les namespaces et un sur les traits, liés au projet.
+- Terminer par l'intégration et la vérification des exemples.
 
 ### Exercices pratiques PHP
 
