@@ -13,6 +13,7 @@ Les règles globales (sécurité, approbations, secrets, niveau A1, structure de
 
 - Utiliser : création ou adaptation d'un lab, de son plan de présentation ou de sa présentation.
 - Ne pas utiliser : veille technologique (skill `veille-technologique`), création de skill (`skill-creator`).
+- Si la demande inclut la création ou la mise à jour du README, appliquer aussi [creator-readme](../_template/creator-readme/SKILL.md). Ne pas modifier le README si l'utilisateur demande uniquement la présentation.
 
 ## Entrées nécessaires
 
