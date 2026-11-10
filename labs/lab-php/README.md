@@ -1,58 +1,33 @@
-# Lab POO – Programmation Orientée Objet en PHP
+# Lab PHP 
 
-## 1. Présentation
-Ce lab permet de découvrir la POO avec PHP 8 à travers un projet simple de gestion des articles.
+## 1. Besoin du projet technique
 
-## 2. Objectifs
-- Comprendre les classes et les objets.
-- Utiliser les méthodes et les attributs.
-- Gérer les erreurs et exceptions.
-- Organiser le code avec les namespaces.
-- Réutiliser le code avec les traits.
+Nous avons étudié PHP, mais certaines notions importantes n'ont pas encore été approfondies.
 
+Pendant le développement de nos projets, nous avons rencontré des difficultés pour gérer les erreurs et organiser le code.
 
-## 4. Structure du projet
-```text
-lab-poo/pratiques/
-├── erreurs-exceptions/
-├── namespaces/
-├── traits/
-└── README.md
-```
+Ce lab permet de compléter nos connaissances en PHP 8, d'améliorer notre pratique et d'apprendre à écrire un code propre, organisé et réutilisable.
 
-Chaque dossier contient un exemple PHP et un tutoriel.
+## 2. Notions et techniques à apprendre
 
-## 5. Exercices pratiques
-- **Erreurs et exceptions :** valider le titre d'un article.
-- **Namespaces :** organiser les classes PHP.
-- **Traits :** partager la date de création entre plusieurs classes.
-  
-## 6. PROBLÈME
-Le problème est que nous avons étudié PHP sans voir toutes ses parties en détail.
+Dans ce lab, nous allons découvrir et pratiquer les notions suivantes :
 
-Avec ce lab, nous allons compléter nos connaissances et ajouter plus de pratique pour mieux comprendre les notions de PHP.
+- **Gestion des erreurs et des exceptions :** comprendre `try`, `catch`, `throw` et `InvalidArgumentException` pour détecter et traiter les erreurs.
+- **Validation :** vérifier le titre d'un article avant sa création.
+- **Namespaces :** organiser les classes PHP et éviter les conflits de noms.
+- **Traits :** partager des propriétés et des méthodes entre plusieurs classes.
+- **DateTimeImmutable :** gérer les dates de création et de modification.
 
-Pendant le développement, nous avons rencontré plusieurs erreurs, mais nous ne savions pas comment les gérer correctement, car nous n'avions pas encore étudié `try`, `catch` et `throw`.
+## 3. Réalisation attendue
 
-L'objectif est donc de découvrir les notions manquantes, de comprendre la gestion des erreurs et des exceptions et de les appliquer dans des exercices pratiques.
+Créer un exemple pratique en PHP 8 autour d'un projet simple de gestion des articles.
 
-## 6. Installation et exécution
+Le travail doit contenir trois exercices indépendants :
 
-Vérifier PHP :
-```bash
-php -v
-```
+- **Exercice 1 – Erreurs et exceptions :** créer une classe `Article` qui valide le titre et lance une `InvalidArgumentException` si le titre est invalide.
+- **Exercice 2 – Namespaces :** organiser les classes dans des espaces de noms et apprendre à les utiliser avec `namespace` et `use`.
+- **Exercice 3 – Traits :** créer un trait `Timestampable` pour partager les dates de création et de modification entre plusieurs classes, avec `DateTimeImmutable`.
 
-Exécuter les exemples :
-```bash
-php .\erreurs-exceptions\exemple.php
-php .\namespaces\demo.php
-php .\traits\exemple.php
-```
+Pour chaque exercice, présenter le rôle de la notion, expliquer son fonctionnement et réaliser un exemple pratique.
 
-## 7. Résultat attendu
-Comprendre et appliquer les notions de la POO avec trois exemples PHP autonomes, sans base de données ni framework.
-
-## 8. Informations
-- **Présenté par :** Oumaima Mahfoud
-- **Encadré par :** ES-SARRAJ FOUAD
+**Livrable :** un code PHP fonctionnel et une présentation Marp pour expliquer les notions et les exercices réalisés.
