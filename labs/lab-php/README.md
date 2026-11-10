@@ -26,6 +26,15 @@ Chaque dossier contient un exemple PHP et un tutoriel.
 - **Erreurs et exceptions :** valider le titre d'un article.
 - **Namespaces :** organiser les classes PHP.
 - **Traits :** partager la date de création entre plusieurs classes.
+  
+## 6. PROBLÈME
+Le problème est que nous avons étudié PHP sans voir toutes ses parties en détail.
+
+Avec ce lab, nous allons compléter nos connaissances et ajouter plus de pratique pour mieux comprendre les notions de PHP.
+
+Pendant le développement, nous avons rencontré plusieurs erreurs, mais nous ne savions pas comment les gérer correctement, car nous n'avions pas encore étudié `try`, `catch` et `throw`.
+
+L'objectif est donc de découvrir les notions manquantes, de comprendre la gestion des erreurs et des exceptions et de les appliquer dans des exercices pratiques.
 
 ## 6. Installation et exécution
 

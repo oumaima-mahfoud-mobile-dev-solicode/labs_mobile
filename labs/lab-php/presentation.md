@@ -39,7 +39,7 @@ paginate: true
 - PHP 8
 - Classes, objets, méthodes
 - Encapsulation, héritage, polymorphisme
-- Projet : gestion des produits
+- Projet : gestion des articles
 
 <!-- Note: Ce lab permet d'organiser le code PHP avec les principes de la POO. -->
 
@@ -54,11 +54,11 @@ paginate: true
 - L'héritage réutilise le code.
 
 ```php
-class Produit {
-    public $nom;
+class Article {
+    public $titre;
 
     public function afficher() {
-        echo $this->nom;
+        echo $this->titre;
     }
 }
 ```
@@ -69,40 +69,21 @@ class Produit {
 
 ## 3. Problème
 
-- À compléter à partir de la réponse de l'étudiant : quel problème concret motive ce lab ?
-- Préciser le contexte et les conséquences constatées.
-- Ne pas présenter d'exemple comme un problème vécu sans confirmation.
+- Nous avons étudié PHP, mais pas toutes ses notions en détail.
+- Pendant le développement, nous avons rencontré plusieurs erreurs.
+- Nous ne savions pas encore les gérer avec `try`, `catch` et `throw`.
+- Nous devons compléter nos connaissances et pratiquer.
 
-
-<!-- Note: Je précise le contexte et les conséquences du problème avant d'appliquer la solution. -->
+<!-- Note: Ce lab répond à nos besoins de pratique et de gestion des erreurs. -->
 
 ---
 
 ## 4. Solution
 
-- Présenter la démarche proposée par l'étudiant, après l'avoir recueillie.
-- Prévoir un Quick Start et un premier exemple PHP exécutable.
-- Montrer un exercice sur les erreurs et exceptions, un sur les namespaces et un sur les traits, liés au projet.
-- Terminer par l'intégration et la vérification des exemples.
+- Découvrir les notions manquantes de PHP.
+- Valider le titre d'un article et gérer une `InvalidArgumentException`.
+- Organiser les classes avec les namespaces.
+- Partager la date de création avec un trait.
+- Appliquer chaque notion dans un exercice pratique.
 
-### Exercices pratiques PHP
-
-- Chaque notion a son sous-dossier.
-- Chaque sous-dossier a un exemple exécutable : `exemple.php` ou `demo.php`.
-- Chaque sous-dossier a aussi un tutoriel : `tutoriel.md`.
-- Le fil conducteur est la gestion d'articles.
-
-```bash
-php .\erreurs-exceptions\exemple.php
-php .\namespaces\demo.php
-php .\traits\exemple.php
-```
-
-**Objectifs :**
-- Erreurs et exceptions : valider un titre et traiter une `InvalidArgumentException` au point d'entrée.
-- Namespaces : séparer le modèle et le dépôt en reprenant l'autoload `App\`.
-- Traits : partager l'horodatage entre un article et un commentaire.
-
-**Livrable :** démonstrations PHP autonomes, sans base de données ni framework.
-
-<!-- Note: La POO aide à organiser les exercices PHP et à les rendre faciles à tester. -->
+<!-- Note: Les exercices nous aident à comprendre et à appliquer ces notions. -->
